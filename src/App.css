@@ -1,0 +1,19 @@
+.App {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  padding: 10px;
+}
+
+.card {
+  margin: 20px;
+}
+
+.profileImg {
+  border-radius: 5px;
+  box-shadow: 0 12px 10px -6px rgba(0, 0, 0, 0.3);
+}

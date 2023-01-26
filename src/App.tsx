@@ -30,7 +30,9 @@ function App() {
             alignItems="center"
             width="100%"
           >
-            <Link to="/works">業務経歴を見る</Link>
+            <Link to="/works" className="menuLink">
+              業務経歴を見る
+            </Link>
           </Box>
         </HStack>
       </Card>
@@ -43,7 +45,9 @@ function App() {
             alignItems="center"
             width="100%"
           >
-            <Link to="/portfolio">ポートフォリオを見る</Link>
+            <Link to="/portfolio" className="menuLink">
+              ポートフォリオを見る
+            </Link>
           </Box>
         </HStack>
       </Card>
@@ -56,7 +60,9 @@ function App() {
             alignItems="center"
             width="100%"
           >
-            <Link to="/skills">スキルを見る</Link>
+            <Link to="/skills" className="menuLink">
+              スキルを見る
+            </Link>
           </Box>
         </HStack>
       </Card>

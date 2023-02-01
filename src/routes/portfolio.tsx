@@ -1,5 +1,12 @@
 import { ArrowBackIcon } from "@chakra-ui/icons";
-import { Box, IconButton, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Card,
+  CardHeader,
+  Heading,
+  IconButton,
+  Text,
+} from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import "../Routes.css";
 
@@ -20,6 +27,11 @@ function Portfolio() {
         <Text fontSize="4xl" as="b">
           ポートフォリオ
         </Text>
+        <Card className="card">
+          <CardHeader>
+            <Heading size="md"></Heading>
+          </CardHeader>
+        </Card>
       </Box>
     </Box>
   );

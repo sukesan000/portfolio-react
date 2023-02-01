@@ -2,9 +2,9 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
-import Portfolio from "./routes/portfolio";
-import Skills from "./routes/skills";
-import Works from "./routes/works";
+import Portfolio from "./routes/Portfolio";
+import Skills from "./routes/Skills";
+import Works from "./routes/Works";
 
 const theme = extendTheme({
   styles: {

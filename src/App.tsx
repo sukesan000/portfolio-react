@@ -29,6 +29,7 @@ function App() {
             justifyContent="center"
             alignItems="center"
             width="100%"
+            pr="30px"
           >
             <Link to="/works" className="menuLink">
               業務経歴を見る
@@ -44,6 +45,7 @@ function App() {
             justifyContent="center"
             alignItems="center"
             width="100%"
+            pr="30px"
           >
             <Link to="/portfolio" className="menuLink">
               ポートフォリオを見る
@@ -59,6 +61,7 @@ function App() {
             justifyContent="center"
             alignItems="center"
             width="100%"
+            pr="30px"
           >
             <Link to="/skills" className="menuLink">
               スキルを見る

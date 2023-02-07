@@ -1,8 +1,8 @@
 import "./App.css";
 import { Box, Card, HStack, Image, Text } from "@chakra-ui/react";
-import portfolioPng from "./images/portfolio.png";
-import worksPng from "./images/works.png";
-import skillPng from "./images/skill.png";
+import portfolioPng from "images/portfolio.png";
+import worksPng from "images/works.png";
+import skillPng from "images/skill.png";
 import { Link } from "react-router-dom";
 
 function App() {

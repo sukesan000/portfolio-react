@@ -2,12 +2,14 @@ import { ArrowBackIcon } from "@chakra-ui/icons";
 import {
   Box,
   Card,
+  CardBody,
   CardHeader,
-  Heading,
   IconButton,
+  Image,
   Text,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
+import GPTDiscordPng from "../images/GPTDiscord.png";
 import "../Routes.css";
 
 function Portfolio() {
@@ -28,9 +30,18 @@ function Portfolio() {
           ポートフォリオ
         </Text>
         <Card className="card">
-          <CardHeader>
-            <Heading size="md"></Heading>
-          </CardHeader>
+          <CardBody>
+            <Image src={GPTDiscordPng} borderRadius="lg" />
+            <CardHeader>
+              <Text fontSize="xl" as="b">
+                GPTDiscordBot
+              </Text>
+              <Text fontSize="md">
+                Discord上でchatGPTを使用するためのBotです。ユーザーがBotに送信したメッセージに対して、chatGPTが応答します。
+              </Text>
+            </CardHeader>
+          </CardBody>
+          <CardBody></CardBody>
         </Card>
       </Box>
     </Box>
